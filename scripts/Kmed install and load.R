@@ -1,5 +1,0 @@
-install.packages("kmed")
-install.packages("datarium")
-library(kmed)
-data("heart")
-write.csv(heart, "heart.csv", row.names = FALSE)
